@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  #root 'messages#index'
+  root 'messages#index'
   resources :messages , only: [:create]
   # get 'messages/index', to: 'messages#index'
 
